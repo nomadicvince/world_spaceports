@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -71,3 +72,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # world_spaceports
 Map of World Spaceports built with Deck.gl and React
 >>>>>>> b7478bbf8492160e24ea7ec19d04bbeee111b5c6
+=======
+World Spaceports project
+>>>>>>> 2cafb23084d81fcf88e7a2a3ba9226cd75933b4b
