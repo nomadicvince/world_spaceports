@@ -54,9 +54,6 @@ class Map extends React.Component {
 
     render() {
 
-      const {mapStyle = 'mapbox://styles/mapbox/light-v9'} = this.props;
-
-
       const layers = [
         new ScatterplotLayer({
           id: 'scatter-plot',
@@ -80,13 +77,12 @@ class Map extends React.Component {
         <Fragment>
           <DeckGL
             initialViewState={initialViewState}
-            mapStyle = {mapStyle}
             controller={true}
             layers={layers}            
           >
             <StaticMap           
               preventStyleDiffing 
-              reuseMaps
+              mapStyle = 'mapbox://styles/mapbox/satellite-streets-v10'
               mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN} 
             />
           </DeckGL>

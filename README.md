@@ -10,7 +10,7 @@ An interactive map highlighting the locations of global space launch facilities.
 
 ## Authors
 
-* **Vincent Moore** - *Initial work* - [Cosmiq Cloud](http://cosmiq.cloud)
+* **Vincent Moore** - [Cosmiq Cloud](http://cosmiq.cloud)
 
 ## License
 
