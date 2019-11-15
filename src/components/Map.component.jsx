@@ -8,9 +8,7 @@ import {ScatterplotLayer} from '@deck.gl/layers';
 import {StaticMap} from 'react-map-gl';
 
 // Set your mapbox access token here
-const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoidmluY2VnYWxheHkiLCJhIjoiY2sxc2lpYWc4MDNrYjNrbzVtcWhwZnZxYSJ9.-QzjwfpvBWvjopePA8T9vQ';
-
-// Initial viewport settings
+const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX;
 const initialViewState = {
     longitude: -75.358658,
     latitude: 39.853886,
@@ -40,6 +38,16 @@ class Map extends React.Component {
          <h4> {hoveredObject.name }</h4>
          <p>{hoveredObject.country}</p>
          <p>{hoveredObject.description}</p>
+        </div>
+      );
+    }
+
+    _Welcome() {
+      return (
+        <div className="welcome" style={{position: 'absolute', zIndex: 7, padding: '4px', pointerEvents: 'click', left: 3, top: 2}}>
+            <h2>World Spaceports</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet, neque ac gravida placerat, nisi nibh congue diam, id sodales magna purus sit amet nisi. Sed pretium nulla vulputate odio tincidunt, eget consectetur justo convallis. </p>
+            <p><a href="https://github.com/nomadicvince/world_spaceports" target="_blank" rel="noopener noreferrer">Github</a></p>
         </div>
       );
     }
@@ -83,6 +91,7 @@ class Map extends React.Component {
             />
           </DeckGL>
           { this._renderTooltip() }
+          { this._Welcome() }
         </Fragment>
       );
     }
