@@ -61,7 +61,7 @@ class Map extends React.Component {
           getPosition: d => d.position,
           radiusMinPixels: 0.25,
           getRadius: d => d.radius,
-          getFillColor: d => [255, 140, 0],
+          getFillColor: d => [255, 4, 0],
           start,
           pickable: true,
           onHover: info => this.setState({

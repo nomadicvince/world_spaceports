@@ -338,6 +338,23 @@ const Spaceports = [
       },
       "website": "https://www.maritimelaunch.com/",
       "radius": 70000
+    },
+    {
+      "id": 22,
+      "name": "Woomera Test Range",
+      "city": "Woomera",
+      "state": "South Australia",
+      "country": "Australia",
+      "position": [136.5322, -30.9553],
+      "description": "The RAAF Woomera Range Complex (WRC), is a large Australian Defence Force aerospace and systems testing range covering an area of approximately 122,000 square kilometres (47,000 sq mi) is operated by the Royal Australian Air Force.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "https://www.defence.gov.au/woomera/about.htm",
+      "radius": 70000
     }
   ]
 
