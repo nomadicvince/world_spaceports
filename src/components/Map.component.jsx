@@ -1,36 +1,15 @@
 import React, {Fragment} from 'react';
 import '../App.css';
 import Spaceports from '../data/spaceports';
+import MAPBOX_ACCESS_TOKEN from './Token.component';
+import initialViewState from './InitialState.component';
 
 //Deckgl imports
 import DeckGL from '@deck.gl/react';
 import {ScatterplotLayer} from '@deck.gl/layers';
 import {StaticMap} from 'react-map-gl';
-
-// Set your mapbox access token here
-const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX;
-const initialViewState = {
-    longitude: -75.358658,
-    latitude: 39.853886,
-    zoom: 2,
-    pitch: 0,
-    bearing: 0
-  };
-
   
-  // Data to be used by the LineLayer
-const start = [{sourcePosition: [-122.41669, 37.7853], targetPosition: [-122.41669, 37.781]}];
-
 class Map extends React.Component {
-
-    // componentDidMount() {
-    //   axios.get(`https://gist.githubusercontent.com/nomadicvince/aa4f5eff2d252614366766c0c966e8f6/raw/9432359539a2ca942f613e59734770729d418919/spaceports.json`)
-    //     .then(res => {
-    //       console.log(res.data)
-    //     })
-    // }
-
-
     _renderTooltip() {
       const {hoveredObject, pointerX, pointerY} = this.state || {};
       return hoveredObject && (
@@ -53,7 +32,6 @@ class Map extends React.Component {
     }
 
     render() {
-
       const layers = [
         new ScatterplotLayer({
           id: 'scatter-plot',
@@ -62,7 +40,6 @@ class Map extends React.Component {
           radiusMinPixels: 0.25,
           getRadius: d => d.radius,
           getFillColor: d => [255, 4, 0],
-          start,
           pickable: true,
           onHover: info => this.setState({
             hoveredObject: info.object,
@@ -73,7 +50,6 @@ class Map extends React.Component {
       ];
   
       return (
-
         <Fragment>
           <DeckGL
             initialViewState={initialViewState}
