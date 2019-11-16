@@ -15,7 +15,9 @@ class Map extends React.Component {
       return hoveredObject && (
         <div className="tools" style={{position: 'absolute', zIndex: 1, pointerEvents: 'none', left: pointerX, top: pointerY}}>
          <h4> {hoveredObject.name }</h4>
-         <p>{hoveredObject.country}</p>
+         <p>City: {hoveredObject.city}<br />
+         State/Province/Region: {hoveredObject.state}<br />
+         Country: {hoveredObject.country}</p>
          <p>{hoveredObject.description}</p>
         </div>
       );
@@ -67,6 +69,6 @@ class Map extends React.Component {
         </Fragment>
       );
     }
-  }
+}
 
 export default Map;

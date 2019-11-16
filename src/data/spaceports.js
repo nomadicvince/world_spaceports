@@ -149,15 +149,15 @@ const Spaceports = [
         "main": "photo1",
         "sidebar": "photo2"
       },
-      "website": "http://baikonurtour.com/",
+      "website": "https://www.roscosmos.ru/479/",
       "radius": 70000
     },
     {
       "id": 11,
       "name": "Guiana Space Centre",
-      "city": "",
-      "state": "Kourou",
-      "country": "Guiana",
+      "city": "Kourou",
+      "state": "French Guiana",
+      "country": "France",
       "position": [-52.7738833, 5.2123751],
       "description": "The Guiana Space Center is a facility used by the European Space Agency and the French government to launch satellites into space.",
       "status": "active",
@@ -188,7 +188,7 @@ const Spaceports = [
     }, 
     {
       "id": 13,
-      "name": "Xichang Space Center",
+      "name": "Xichang Satellite Launch Center",
       "city": "Xichang",
       "state": "Liangshan, Sichuan",
       "country": "China",
@@ -354,6 +354,210 @@ const Spaceports = [
         "sidebar": "photo2"
       },
       "website": "https://www.defence.gov.au/woomera/about.htm",
+      "radius": 70000
+    },
+    {
+      "id": 23,
+      "name": "Naro Space Center",
+      "city": "Outer Naro Island, Goheung County",
+      "state": "Jeollanam-do",
+      "country": "South Korea",
+      "position": [127.535069, 34.431867],
+      "description": "Naro Space Center is located about 485 km (300 mi) south of Seoul. It includes two launch pads, a control tower, rocket assembly and test facilities, facilities for satellite control testing and assembly, a media center, an electric power station, a space experience hall and a landing field.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "https://www.kari.re.kr/narospacecenter/",
+      "radius": 70000
+    },
+    {
+      "id": 24,
+      "name": "Jiuquan Satellite Launch Center",
+      "city": "	Ejin, Alxa",
+      "state": "Inner Mongolia",
+      "country": "China",
+      "position": [100.298333, 40.960556],
+      "description": "The first of China's four spaceports. More Chinese launches have occurred at Jiuquan than anywhere else. The site of China's first manned missions to space.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "",
+      "radius": 70000
+    },
+    {
+      "id": 25,
+      "name": "Taiyuan Satellite Launch Center",
+      "city": "Kelan, Xinzhou",
+      "state": "Shanxi",
+      "country": "China",
+      "position": [111.608, 38.8491],
+      "description": "This site is primarily used to launch meteorological satellites, earth resource satellites and scientific satellites on Long March launch vehicles into sun-synchronous orbits.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "",
+      "radius": 70000
+    },
+    {
+      "id": 26,
+      "name": "Wenchang Spacecraft Launch Site",
+      "city": "Wenchang",
+      "state": "Hainan",
+      "country": "China",
+      "position": [110.951057, 19.614354],
+      "description": "China's fourth and southernmost space vehicle launch facility (spaceport). It has been specially selected for its low latitude, which is only 19 degrees north of the equator, which will allow for a substantial increase in payload, necessary for the future manned program, space station and deep space exploration program.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "",
+      "radius": 70000
+    },
+    {
+      "id": 27,
+      "name": "Imam Khomeini Spaceport",
+      "city": "",
+      "state": "Semnan Province",
+      "country": "Iran",
+      "position": [53.950778, 35.238],
+      "description": "Iran's primary space vehicle launch facility (spaceport) located in the Semnan Province.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "",
+      "radius": 70000
+    },
+    {
+      "id": 28,
+      "name": "Vostochny Cosmodrome",
+      "city": "",
+      "state": "Amur Oblast",
+      "country": "Russia",
+      "position": [128.333932, 51.884395],
+      "description": "Russia's eastern spaceport on the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "http://vostokdrom.ru/",
+      "radius": 70000
+    },
+    {
+      "id": 29,
+      "name": "Plesetsk Cosmodrome",
+      "city": "",
+      "state": "Arkhangelsk Oblast",
+      "country": "Russia",
+      "position": [40.577778, 62.925556],
+      "description": "Russia's northernmost spaceport and one of the largest in the world, providing part of Russian and international space programs related to defense, as well as applied, scientific and commercial launches of unmanned spacecraft.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "https://www.roscosmos.ru/480/",
+      "radius": 70000
+    },
+    {
+      "id": 30,
+      "name": "Andøya Space Center",
+      "city": "Andøy",
+      "state": "Nordland County",
+      "country": "Norway",
+      "position": [16.020833, 69.294167],
+      "description": "Andøya Space Center has launched over 1,200 sounding and sub-orbital rockets of various configurations since 1962.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "https://www.andoyaspace.no/",
+      "radius": 70000
+    },
+    {
+      "id": 31,
+      "name": "Svalbard Rocket Range",
+      "city": "",
+      "state": "Svalbard",
+      "country": "Norway",
+      "position": [11.850278, 78.931389],
+      "description": "SvalRak is the world's northern-most rocket launch site making it an ideal location for sending instruments into Earth's magnetic field and the polar cups, cleft and cup. It is also used for studying the Magnetopause and aurora borealis.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "",
+      "radius": 70000
+    },
+    {
+      "id": 32,
+      "name": "Oklahoma Air & Space Port",
+      "city": "Burns Flat",
+      "state": "Oklahoma",
+      "country": "United States",
+      "position": [-99.200556, 35.339722],
+      "description": "The Oklahoma Air & Space Port is located near Burns Flat, Oklahoma. In 2006, the Federal Aviation Administration (FAA) granted a license Oklahoma Space Industry Development Authority (OSIDA), who oversees development.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "https://airspaceportok.com/",
+      "radius": 70000
+    },
+    {
+      "id": 33,
+      "name": "Whalers Way Orbital Launch Complex",
+      "city": "Erye Peninsula",
+      "state": "South Australia",
+      "country": "Australia",
+      "position": [136, -34],
+      "description": "Whalers Way Orbital Launch Complex will be located on the tip of the Eyre Peninsula in South Australia and will be a multi-user site.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "https://southernlaunch.space/whalers-way",
+      "radius": 70000
+    },
+    {
+      "id": 34,
+      "name": "Reagan Test Site",
+      "city": "Omelek Island",
+      "state": "Kwajalein Atoll",
+      "country": "Marshall Islands",
+      "position": [167.743, 9.047861],
+      "description": "A launch site that is part of a series occupying atolls in the Marshall Islands. Used by Space X before retiring the Falcon I.",
+      "status": "active",
+      "visitors": "Yes",
+      "images": {
+        "main": "photo1",
+        "sidebar": "photo2"
+      },
+      "website": "",
       "radius": 70000
     }
   ]
