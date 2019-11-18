@@ -1,5 +1,7 @@
 # World Spaceports
 
+![World Spaceports](https://images.ctfassets.net/nb888uixfxem/4BvggLXhjqKB1UjsXjiQQX/45013dca2bb58a74a5ba85b814bced08/Screenshot_at_2019-11-17_19-28-06.jpg)
+
 An interactive map highlighting the locations of global space launch facilities.
 
 ## Built With
